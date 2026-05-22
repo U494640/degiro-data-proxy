@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "degiro-data-proxy",
+	"upload_source_maps": true,
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "degiro-data-db",
+			"database_id": "37e216ba-7cef-4497-9708-57d641b44a2e"
+		}
+	]
+}
